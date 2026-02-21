@@ -3,87 +3,206 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>地域密着ホームページサポート</title>
- <style>
-  body {
-    font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
-    margin: 0;
-    background: #f7f7f7;
-    color: #333;
-  }
-  header {
-    background: #2c3e50;
-    color: #fff;
-    padding: 60px 20px;
-    text-align: center;
-  }
-  section {
-    background: #fff;
-    margin: 20px auto;
-    padding: 40px 20px;
-    max-width: 900px;
-    border-radius: 8px;
-  }
-  h1, h2 {
-    margin-bottom: 20px;
-  }
-  .btn {
-    display: inline-block;
-    padding: 12px 24px;
-    background: #2c3e50;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-  }
-  .price {
-    font-size: 1.4em;
-    font-weight: bold;
-  }
-</style>
+  <title>まちの1ページ｜地域でがんばる人のための小さなホームページ</title>
+  <meta name="description" content="まちの1ページは、地域でがんばる個人店や個人活動のための、1ページ完結型ホームページ制作・運用サービスです。">
+  <style>
+    :root {
+      --main-color: #2FA4A9;
+      --text-color: #333;
+      --bg-color: #ffffff;
+      --sub-bg: #f7f9f9;
+    }
 
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      color: var(--text-color);
+      background: var(--bg-color);
+      line-height: 1.7;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    h1, h2 {
+      color: var(--main-color);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+    }
+
+    p {
+      margin-bottom: 16px;
+    }
+
+    .hero {
+      background: var(--sub-bg);
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+    }
+
+    .box {
+      background: var(--sub-bg);
+      padding: 24px;
+      border-radius: 8px;
+      margin-bottom: 24px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .price {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: var(--main-color);
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .cta a {
+      display: inline-block;
+      padding: 14px 28px;
+      background: var(--main-color);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
 
-<header>
-  <h1>安中ウェブサポート</h1>
-  <p>安中市の個人店向けに、安くホームページを作るサポートをしています。</p>
-</header>
+  <!-- ヒーロー -->
+  <div class="hero">
+    <h1>まちの1ページ</h1>
+    <p>地域でがんばる人のための<br>小さくて、続けやすいホームページ</p>
+  </div>
 
-<section>
-  <h2>こんな方におすすめ</h2>
-  <ul>
-    <li>ホームページがまだない</li>
-    <li>業者に頼むのは不安</li>
-    <li>まずは1ページだけ欲しい</li>
-  </ul>
-</section>
-
-<section>
-  <h2>できること</h2>
-  <p>
-    スマホ対応のシンプルなホームページを制作します。<br>
-    営業時間・地図・連絡先が分かるだけで、お店の信頼感は大きく変わります。
-  </p>
-</section>
-
-<section>
-  <h2>料金</h2>
-  <p class="price">5,000円〜</p>
-  <p>サーバー代不要／更新サポートも対応</p>
-</section>
-
+  <!-- サービス概要 -->
   <section>
-  <h2>制作例</h2>
-  <p>
-    <a href="sample.html">〇〇食堂（架空店舗）を見る</a>
-  </p>
-</section>
+    <h2>まちの1ページとは</h2>
+    <p>
+      まちの1ページは、地域で活動する個人店や個人のための、
+      1ページ完結型ホームページ制作・運用サービスです。
+    </p>
+    <p>
+      売上を無理に伸ばすことよりも、<br>
+      「ちゃんと案内できる」「長く続けられる」ことを大切にしています。
+    </p>
+  </section>
 
-<section>
-  <h2>お問い合わせ</h2>
-  <a class="btn" href="#">お問い合わせはこちら</a>
-</section>
+  <!-- 対象 -->
+  <section>
+    <h2>対象となる方</h2>
+    <ul>
+      <li>個人店（飲食店・美容・小売・教室など）</li>
+      <li>個人で活動している方</li>
+      <li>地域活動・非営利・ボランティア団体</li>
+    </ul>
+    <p>
+      大規模な事業者様や、頻繁な更新・複雑な構成が必要な場合は対象外となります。
+    </p>
+  </section>
 
+  <!-- 内容 -->
+  <section>
+    <h2>できること</h2>
+    <div class="box">
+      <ul>
+        <li>1ページ完結のホームページ</li>
+        <li>スマホ表示前提のシンプル設計</li>
+        <li>商品・サービス掲載（写真あり・最大10件）</li>
+        <li>おすすめ表示（最大3件）</li>
+        <li>お知らせ・ギャラリー（表示ON/OFF可能）</li>
+        <li>LINEへの導線を重視</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 料金 -->
+  <section>
+    <h2>料金</h2>
+    <div class="box">
+      <p class="price">運用サポート（月額）</p>
+      <ul>
+        <li>非営利・ボランティア：500円／月</li>
+        <li>通常（個人活動・営利）：1,000円／月</li>
+      </ul>
+      <p>
+        運用サポートに加入される方は、初期制作費はかかりません。
+      </p>
+    </div>
+  </section>
+
+  <!-- 更新 -->
+  <section>
+    <h2>更新について</h2>
+    <ul>
+      <li>月1回程度までの軽微な更新に対応</li>
+      <li>文章の差し替え、写真の入れ替えなど</li>
+      <li>更新が多い場合は別途ご相談</li>
+    </ul>
+  </section>
+
+  <!-- 流れ -->
+  <section>
+    <h2>制作の流れ</h2>
+    <ol>
+      <li>サンプルページ確認</li>
+      <li>修正1回まで</li>
+      <li>内容確定・お支払い</li>
+      <li>公開</li>
+    </ol>
+  </section>
+
+  <!-- 連絡 -->
+  <section>
+    <h2>連絡方法</h2>
+    <p>
+      連絡はLINEトークのみです。<br>
+      写真や文章もLINEでやり取りします。
+    </p>
+
+    <div class="cta">
+      <a href="#">LINEで相談する</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© まちの1ページ</p>
+  </footer>
 
 </body>
 </html>
